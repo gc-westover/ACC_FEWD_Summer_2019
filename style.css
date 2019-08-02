@@ -2,11 +2,13 @@
   background-color: tan;
   width: 600px;
   height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .row {
-  height: calc(100% / 8);
   display: flex;
+  flex: 1;
 }
 
 .space {
